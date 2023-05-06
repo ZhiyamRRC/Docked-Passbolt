@@ -1,5 +1,8 @@
 ## Docked-Passbolt
 ### Dockerized Passbolt Password Manager with Traefik Security (SSL)
+- Passbolt v3.12.2
+- Passbolt Docker v3.10.0
+- Traefik v2.6
 <br>
 
 
@@ -28,7 +31,7 @@ https://github.com/ZhiyamRRC/Docked-Passbolt.git
 docker-compose -f docker-compose-ce.yaml up -d
 ```
 
-6. Create first Admin User; Use following command and eplace Email, First and Last Name according to you.
+6. Create first Admin User; Use command and replace email, first and last name according to your preference;
 ```
 $ docker-compose -f docker-compose-ce.yaml exec passbolt su -m -c "/usr/share/php/passbolt/bin/cake \
                                 passbolt register_user \
