@@ -13,9 +13,10 @@
 sudo apt install docker.io docker-compose -y
 ```
 
-2. Clone the repository
+2. Clone the repository and get into the folder
 ```
-https://github.com/ZhiyamRRC/Docked-Passbolt.git
+wget https://github.com/ZhiyamRRC/Docked-Passbolt.git
+cd Docked-Passbolt-main/Passbolt
 ```
 
 3. Edit the "docker-compose-ce.yaml" and change Followings with server dns;
