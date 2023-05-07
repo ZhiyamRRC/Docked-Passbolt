@@ -6,17 +6,18 @@
 <br>
 
 
-## How to Install
+## Setup Instructions
 
-1. Install docker on the server
+1. Install docker
 ```
 sudo apt install docker.io docker-compose -y
 ```
 
-2. Clone the repository and get into the folder
+2. Clone the repository, extract and get into the folder
 ```
 wget https://github.com/ZhiyamRRC/Docked-Passbolt.git
-cd Docked-Passbolt-main/Passbolt
+unzip Docked-Passbolt-main.zip
+cd Docked-Passbolt-main
 ```
 
 3. Edit the "docker-compose-ce.yaml" and change Followings with server dns;
